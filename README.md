@@ -80,20 +80,3 @@ After you have completed Iterations 0-1, your Project Manager will provide you w
   - Credit all teammates
 * **2:** Every team member (on a team of 3) authors between 20%-45% of the commits. More than a few commits are formatted incorrectly. The README is formatted well but may be lacking in detail.
 * **1:** Commit and PR history does not tell a story of the application OR a README has not been created/has minimal information.
-
-### JavaScript - Style and Implementation
-
-* **4:**
-  * All loops are refactored into the proper array prototype iteration methods
-  * Uses logical operators instead of if/else statements where applicable
-  * When 'Filtering and Searching by Text' and 'Viewing Urgent ToDo Cards', to-dos that do not need to be shown on the DOM should be completely removed from the DOM, instead of only being hidden from view
-* **3:**
-  * Application uses the Data Model exclusively to track changes to the ideas,
-    and display of ideas happens after the Data Model has been updated
-  * DRY and SRP practices are demonstrated in codebase and students can speak to implementation decisions
-  * All functions are less than 10 lines
-  * There are no nested if/else statements
-  * There are no global variables aside from query selectors and an array for your to-dos
-  * Uses event delegation correctly on dynamic elements for deleting, checking tasks off, and marking a to-do urgent
-* **2:** Application correctly implements data model for the `Idea` class including all required methods
-* **1:** Crafts JS according to the [Turing JS Style Guide](https://github.com/turingschool-examples/javascript/tree/master/es5)
